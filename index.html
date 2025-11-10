@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Agam - Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="content-wrapper">
+        <header>
+            <div class="container"> 
+                <div class="logo">
+                    <a href="#">Valentine Agam Portfolio</a>
+                </div>
+                <nav>
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#" id="contact-link">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <main>
+                <section id="work" class="work-section fade-in">
+                    <h2>Projects</h2>
+                    
+                    <div class="project-grid">
+                        <div class="project-card fade-in" data-modal-target="modal-1">
+                            <img src="images/vale_poster.jpg" alt="Machine Learning Project" >
+                            <div class="project-info">
+                                <h3>Machine Learning Detection</h3>
+                                <p>An AI-powered system for palm tree analysis.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card fade-in" data-modal-target="modal-2">
+                            <img src="images/dimmer_icon.png" alt="Super Dimmer APK Project" class="img-contain">
+                            <div class="project-info">
+                                <h3>Super Dimmer APK</h3>
+                                <p>A Flutter app for safer night driving.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card fade-in" data-modal-target="modal-3">
+                            <img src="images/trombol_logo.png" alt="Trombol Paradise Beach App" class="img-contain">
+                            <div class="project-info">
+                                <h3>Trombol Paradise Beach App</h3>
+                                <p>A UI/UX design for a resort booking app.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-card fade-in" data-modal-target="modal-4">
+                            <img src="images/ar_app_icon.png" alt="UNIMAS AR Navigator App" class="img-contain">
+                            <div class="project-info">
+                                <h3>UNIMAS AR Navigator</h3>
+                                <p>An AR navigation app for the UNIMAS campus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="about" class="about-section fade-in">
+                    <div class="about-image fade-in">
+                        <img src="images/vale_pic.jpg" alt="A photo of Valentine Agam">
+                    </div>
+                    
+                    <div class="about-content fade-in">
+                        <h2>About Me</h2>
+                        <p class="about-subtitle">
+                            I'm a passionate Tech Nerd specializing in Data Analyst, Software Development, Web Development and UI/UX based in Miri, Sarawak., 
+                            with a love for solving complex problems, creating 
+                            beautiful, intuitive digital experiences and problem solving solution using Software development and AI.
+                        </p>
+                        <p>
+                            With a background in Cognitive Science, 
+                            I bring a unique perspective to my work, focusing on user-centric 
+                            solutions that are not only visually appealing but also 
+                            functional and accessible.
+                        </p>
+                        <p>
+                            When I'm not designing, you can find me exploring the latest tech trends,developing software for my personal projects and reverse engineering apps. I still expanding my knowledge in technology and design to stay ahead in this ever-evolving field. Cherrs!!!
+                        </p>
+                        
+                        <a href="latest_resume.pdf" class="resume-button" download>
+                            Download Resume
+                        </a>
+                    </div>
+                </section>
+
+            </main>
+
+            <footer class="fade-in">
+                <p>Let's build something great together.</p>
+                <div class="social-links">
+                    <a href="mailto:valentineagam6@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/valentine-a-a278a7254/">LinkedIn</a>
+                    <a href="https://www.instagram.com/issav5_">Instagram</a>
+                </div>
+            </footer>
+        </div>
+        
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2 id="modal-title"></h2>
+                <div id="modal-keywords"></div>
+                <div id="modal-description"></div>
+                <div id="modal-images"></div>
+            </div>
+        </div>
+
+        <div id="contact-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Get in Touch</h2>
+                <p class="modal-subtitle">I'm open to discussing new projects, opportunities, or just to chat. Feel free to reach out.</p>
+                
+                <div class="contact-grid">
+                    <a href="https://wa.me/60146521429" class="contact-card" target="_blank" rel="noopener noreferrer">
+                        <h3>
+                            <img src="images/whatsapp_logo.png" alt="WhatsApp" class="contact-icon">
+                            <span>WhatsApp</span>
+                        </h3>
+                        <p>+60 14-652 1429</p>
+                    </a>
+                    
+                    <a href="mailto:valentineagam6@gmail.com" class="contact-card">
+                        <h3>
+                            <img src="images/gmail_logo.jpg" alt="Email" class="contact-icon">
+                            <span>Email</span>
+                        </h3>
+                        <p>valentineagam6@gmail.com</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div> <script src="script.js"></script>
+</body>
+</html>
